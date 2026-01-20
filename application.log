@@ -1,0 +1,299 @@
+2026-01-14 16:55:38.033 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-14 16:55:38.037 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-14 16:55:38.037 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-14 16:55:38.037 [main] INFO  M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-14 16:55:38.038 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-14 16:55:38.038 [main] ERROR M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-14 16:55:38.038 [main] ERROR M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-14 16:55:38.042 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-14 16:55:38.042 [main] WARN  M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-14 16:55:38.042 [main] ERROR M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-14 16:55:38.042 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-14 16:55:38.042 [main] WARN  M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-14 16:55:38.042 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
+2026-01-14 17:04:28.679 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-14 17:04:28.681 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-14 17:04:28.683 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-14 17:04:28.683 [main] INFO  M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-14 17:04:28.683 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-14 17:04:28.684 [main] ERROR M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-14 17:04:28.684 [main] ERROR M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-14 17:04:28.686 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-14 17:04:28.686 [main] WARN  M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-14 17:04:28.686 [main] ERROR M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-14 17:04:28.686 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-14 17:04:28.686 [main] WARN  M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-14 17:04:28.686 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
+2026-01-14 17:05:57.501 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-14 17:05:57.504 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-14 17:05:57.506 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-14 17:05:57.506 [main] INFO  M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-14 17:05:57.507 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-14 17:05:57.507 [main] ERROR M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-14 17:05:57.507 [main] ERROR M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-14 17:05:57.509 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-14 17:05:57.510 [main] WARN  M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-14 17:05:57.510 [main] ERROR M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-14 17:05:57.510 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-14 17:05:57.510 [main] WARN  M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-14 17:05:57.510 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
+2026-01-14 17:06:46.732 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-14 17:06:46.735 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-14 17:06:46.737 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-14 17:06:46.737 [main] INFO  M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-14 17:06:46.738 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-14 17:06:46.738 [main] ERROR M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-14 17:06:46.739 [main] ERROR M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-14 17:06:46.743 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-14 17:06:46.743 [main] WARN  M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-14 17:06:46.743 [main] ERROR M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-14 17:06:46.743 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-14 17:06:46.743 [main] WARN  M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-14 17:06:46.743 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
+2026-01-14 17:11:35.154 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-14 17:11:35.157 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-14 17:11:35.158 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-14 17:11:35.159 [main] INFO  M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-14 17:11:35.159 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-14 17:11:35.159 [main] ERROR M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-14 17:11:35.159 [main] ERROR M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-14 17:11:35.163 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-14 17:11:35.163 [main] WARN  M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-14 17:11:35.164 [main] ERROR M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-14 17:11:35.164 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-14 17:11:35.164 [main] WARN  M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-14 17:11:35.164 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
+2026-01-14 17:11:44.468 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-14 17:11:44.474 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-14 17:11:44.475 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-14 17:11:44.475 [main] INFO  M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-14 17:11:44.476 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-14 17:11:44.476 [main] ERROR M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-14 17:11:44.477 [main] ERROR M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-14 17:11:44.480 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-14 17:11:44.480 [main] WARN  M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-14 17:11:44.480 [main] ERROR M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-14 17:11:44.481 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-14 17:11:44.481 [main] WARN  M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-14 17:11:44.481 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
+2026-01-14 17:11:58.275 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-14 17:11:58.280 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-14 17:11:58.280 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-14 17:11:58.280 [main] INFO  M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-14 17:11:58.281 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-14 17:11:58.281 [main] ERROR M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-14 17:11:58.281 [main] ERROR M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-14 17:11:58.284 [main] INFO  M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-14 17:11:58.284 [main] WARN  M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-14 17:11:58.284 [main] ERROR M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-14 17:11:58.284 [main] INFO  M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-14 17:11:58.284 [main] WARN  M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-14 17:11:58.284 [main] INFO  M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
+2026-01-14 17:12:23.014 [main] [INFO] M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-14 17:12:23.019 [main] [INFO] M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-14 17:12:23.020 [main] [INFO] M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-14 17:12:23.020 [main] [INFO] M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-14 17:12:23.020 [main] [INFO] M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-14 17:12:23.020 [main] [ERROR] M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-14 17:12:23.020 [main] [ERROR] M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-14 17:12:23.024 [main] [INFO] M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-14 17:12:23.024 [main] [WARN] M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-14 17:12:23.024 [main] [ERROR] M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-14 17:12:23.024 [main] [INFO] M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-14 17:12:23.024 [main] [WARN] M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-14 17:12:23.026 [main] [INFO] M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
+2026-01-14 17:12:48.875 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-14 17:12:48.880 [main] [ INFO] M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-14 17:12:48.881 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-14 17:12:48.882 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-14 17:12:48.882 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-14 17:12:48.882 [main] [ERROR] M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-14 17:12:48.882 [main] [ERROR] M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-14 17:12:48.886 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-14 17:12:48.886 [main] [ WARN] M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-14 17:12:48.886 [main] [ERROR] M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-14 17:12:48.887 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-14 17:12:48.887 [main] [ WARN] M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-14 17:12:48.887 [main] [ INFO] M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
+2026-01-14 17:13:04.300 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-14 17:13:04.306 [main] [ INFO] M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-14 17:13:04.307 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-14 17:13:04.307 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-14 17:13:04.307 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-14 17:13:04.307 [main] [ERROR] M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-14 17:13:04.307 [main] [ERROR] M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-14 17:13:04.311 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-14 17:13:04.311 [main] [ WARN] M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-14 17:13:04.311 [main] [ERROR] M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-14 17:13:04.312 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-14 17:13:04.312 [main] [ WARN] M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-14 17:13:04.312 [main] [ INFO] M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
+2026-01-14 17:13:04.554 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-14 17:13:04.560 [main] [ INFO] M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-14 17:13:04.563 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-14 17:13:04.563 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-14 17:13:04.563 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-14 17:13:04.563 [main] [ERROR] M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-14 17:13:04.563 [main] [ERROR] M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-14 17:13:04.565 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-14 17:13:04.566 [main] [ WARN] M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-14 17:13:04.566 [main] [ERROR] M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-14 17:13:04.566 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-14 17:13:04.566 [main] [ WARN] M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-14 17:13:04.566 [main] [ INFO] M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
+2026-01-20 11:18:54.736 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-20 11:18:54.740 [main] [ INFO] M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-20 11:18:54.740 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-20 11:18:54.740 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-20 11:18:54.740 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-20 11:18:54.740 [main] [ERROR] M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-20 11:18:54.741 [main] [ERROR] M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-20 11:18:54.743 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-20 11:18:54.743 [main] [ WARN] M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-20 11:18:54.744 [main] [ERROR] M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-20 11:18:54.744 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-20 11:18:54.744 [main] [ WARN] M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-20 11:18:54.744 [main] [ INFO] M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
+2026-01-20 11:19:20.900 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P5000.0
+2026-01-20 11:19:20.905 [main] [ INFO] M4_Activity6.BankAccount - Deposit completed: P5000.0, New balance: P15000.0
+2026-01-20 11:19:20.905 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal requested: P3000.0
+2026-01-20 11:19:20.906 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal completed: P3000.0, New balance: P12000.0
+2026-01-20 11:19:20.906 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P-500.0
+2026-01-20 11:19:20.906 [main] [ERROR] M4_Activity6.BankAccount - Invalid deposit amount: P-500.0
+2026-01-20 11:19:20.906 [main] [ERROR] M4_Activity6.BankAccount - InvalidAmountException during Deposit: Deposit failed: Deposit amount must be positive
+M4_Activity6.InvalidAmountException: Deposit failed: Deposit amount must be positive
+	at Logger/M4_Activity6.BankAccount.deposit(BankAccount.java:29)
+	at Logger/M4_Activity6.Main.lambda$2(Main.java:10)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:10)
+2026-01-20 11:19:20.910 [main] [ INFO] M4_Activity6.BankAccount - Withdrawal requested: P20000.0
+2026-01-20 11:19:20.910 [main] [ WARN] M4_Activity6.BankAccount - Insufficient funds. P12000.0 available
+2026-01-20 11:19:20.910 [main] [ERROR] M4_Activity6.BankAccount - InsufficientFundsException during Withdrawal: Insufficient funds for withdrawal.
+M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal.
+	at Logger/M4_Activity6.BankAccount.withdraw(BankAccount.java:19)
+	at Logger/M4_Activity6.Main.lambda$3(Main.java:11)
+	at Logger/M4_Activity6.BankAccount.runTest(BankAccount.java:41)
+	at Logger/M4_Activity6.Main.main(Main.java:11)
+2026-01-20 11:19:20.911 [main] [ INFO] M4_Activity6.BankAccount - Deposit requested: P60000.0
+2026-01-20 11:19:20.911 [main] [ WARN] M4_Activity6.BankAccount - Large deposit: P60000.0 - requires verification
+2026-01-20 11:19:20.911 [main] [ INFO] M4_Activity6.BankAccount - Deposit completed: P60000.0, New balance: P72000.0
