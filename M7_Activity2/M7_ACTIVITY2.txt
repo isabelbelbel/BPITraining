@@ -1,0 +1,50 @@
+M7_ACTIVITY2
+GET
+curl --location 'http://localhost:4567/profiles'
+
+POST
+curl --location 'http://localhost:4567/profiles' \
+--header 'Content-Type: application/json' \
+--data '{
+    "id": 4,
+    "name": "Jose Rizal",
+    "group": "La Liga Filipina"
+}'
+
+PUT
+curl --location 'http://localhost:4567/profiles?name=Emilio Aguinaldo' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name": "Antonio Luna",
+    "group": "Illustrados"
+}'
+
+DELETE
+curl --location 'http://localhost:4567/profiles/2'
+
+RESPONSE
+{
+  "status": "Success",
+  "data": [
+    {
+      "id": 1,
+      "name": "Jose Rizal",
+      "group": "La Liga Filipina"
+    },
+    {
+      "id": 2,
+      "name": "Andres Bonifacio",
+      "group": "Katipunan"
+    },
+    {
+      "id": 3,
+      "name": "Emilio Aguinaldo",
+      "group": "Revolutionary Government"
+    },
+    {
+      "id": 4,
+      "name": "Antonio Luna",
+      "group": "Illustrados"
+    }
+  ]
+}
